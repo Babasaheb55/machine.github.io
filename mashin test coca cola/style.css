@@ -1,0 +1,49 @@
+html,
+body {
+    height: 300px;
+    width: 500px;
+    background-color: black;
+
+}
+
+.box{
+       height: 300px;
+       width: 380px;
+       margin-top:  170px;
+       margin-left: 400px;
+       position: relative;
+       border: 3px solid black;
+       animation-duration: 2S;
+       animation-name: babasaheb;
+       animation-direction: alternate;
+       animation-fill-mode: both;
+       animation-iteration-count: infinite;
+       animation-timing-function: inherit;
+}
+
+.heading {
+    text-align: center;
+
+}
+
+a{
+    text-decoration: dashed;
+    color: black;
+}
+
+button{
+    width: 100px;
+    margin-left: 560px;
+    margin-bottom: 100px;
+    background-color: lightblue;
+    font-size: 15px;
+    box-shadow: 5px 5px 5px grey;
+}
+   @keyframes babasaheb {
+    from {
+        background-image: url(002jpg.jpg )
+    }
+    to {
+        background-image: url(003jpg.jpg )
+    }
+   }
